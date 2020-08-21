@@ -24,6 +24,9 @@ ol,ul{
     text-decoration: none;
     color: white;
 }
+.link:hover{/*cuando pasa el mause sobre*/
+    color: black;
+}
  nav ol{
      display: flex;
  }
@@ -33,4 +36,9 @@ ol,ul{
  }
  .container-hero{
      display: flex;
+     align-items: center;
+     padding: 1%;
+     border: 1px solid black;
+     border-radius: 15px;
  }
+ 
