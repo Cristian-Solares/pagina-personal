@@ -1,0 +1,12 @@
+.header{
+    background-color: rgba(119, 57, 86, .9);
+}
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.link{
+    margin: 3px;
+}
