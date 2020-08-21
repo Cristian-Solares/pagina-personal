@@ -1,12 +1,36 @@
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
 .header{
-    background-color: rgba(119, 57, 86, .9);
+    background-color:#3282B8;
+    display: flex;
+    color: white;
+   
+}
+.container-heder{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 ol,ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
+    list-style: none;   
 }
 .link{
-    margin: 3px;
+    margin-left: 15px;
+    font: outline;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
 }
+ nav ol{
+     display: flex;
+ }
+ .foto-hero{
+     width: 50%;
+     height: 50%;
+ }
+ .container-hero{
+     display: flex;
+ }
