@@ -1,0 +1,14 @@
+body{
+    font-family: 'Kaushan Script'; /*cambia fuente a una importada desde el enlace */
+    font-weight: normal;/*estilo de fuente pueden ser negritas en si es grueso de fuente*/
+}
+h1{
+    font-family: Courgette;
+    line-height: 150%; /*alto de linea*/
+}
+.project-details{
+    width: 50%; /*tamaño 50% de la pocicion horizontal*/
+}
+.prohject-imageContainer{
+    width: 50%;/*tamaño 50% de la pocicion horizontal*/
+}
