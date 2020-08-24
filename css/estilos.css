@@ -1,28 +1,65 @@
+html{margin: 0px;}
 body{
     font-family: 'Kaushan Script'; /*cambia fuente a una importada desde el enlace */
     font-weight: normal;/*estilo de fuente pueden ser negritas en si es grueso de fuente*/
+    margin: 0px;
 }
 .header{
     background-color: #2469A0;
     color:white;
 }
+.logo{
+    margin: 0px;
+}
+ol{
+    margin-bottom: 0px;/*quita el margen a ol*/
+}
 .hero{
-    height: 50%;
+    /*height: 150px; /*alto*/
     background-color: #10BCE2 ;
-    background-image: url('../image/hero2.jpg'); /*agrega imagen*/
-    
+    /* background-image: url('../image/hero2.jpg'); /*agrega imagen*/
+    /*background-size: 50% 100%; /*tamaño de imagen de fondo ancho y alto*/
+    /*background-repeat: no-repeat;/*no se repite la imagen de fondo*/
+    /*background-position: right;/*pocicion de imagen de fondo*/
+}
+.container-hero{
+    display: flex;
+    flex-wrap: wrap;/*hace que los elementos caigan cuando no caben*/
+    justify-content: space-between;/*acomodo de los elementos hace que se pegen hacia los lados*/
+}
+.foto-hero{
+    width: 50%; /*ancho del 50% de su contendeor*/
 }
 .link{
     color: white; /*color de los links blancos*/
     text-decoration: none;/*quta el subrrayado*/
 }
 h1{
-    font-family: Courgette;
+    font-family: Courgette;/*fuente*/
     line-height: 150%; /*alto de linea*/
+    margin-top: 0px; /*margen arriba*/
+}
+.container-proyectos{
+    border-style: solid; /*estilo de borde*/
+    border-width: 2px;/*tamaño de borde*/
+    border-color: gray;/*color del borde*/
+    border-radius: 4px; /*borde redondeado*/
+    
+}
+.project{
+    display: flex;
+    justify-content: space-between;
 }
 .project-details{
     width: 50%; /*tamaño 50% de la pocicion horizontal*/
 }
 .prohject-imageContainer{
     width: 50%;/*tamaño 50% de la pocicion horizontal*/
+    margin: 16px;
+}
+.contact{
+    border-width: 1px; /*tamaño del borde*/
+    border-style: solid;
+    border-color: gray;
+    
 }
